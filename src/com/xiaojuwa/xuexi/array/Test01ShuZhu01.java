@@ -1,10 +1,11 @@
 package com.xiaojuwa.xuexi.array;
+//数组的声明和创建
 
 public class Test01ShuZhu01 {
     public static void main(String[] args) {
 
-        int[] test1;//1.声明数组
-        test1 = new int[5];//2.创建数组
+        int[] test1;//1.声明数组  （此时创建栈）
+        test1 = new int[5];//2.创建数组  （此时创建堆）
 
         int[] test2  = new int[10];//声明并创建数组
         //数组索引从0开始
