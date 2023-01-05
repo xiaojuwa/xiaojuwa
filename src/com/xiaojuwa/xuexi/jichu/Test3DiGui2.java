@@ -1,3 +1,5 @@
+package com.xiaojuwa.xuexi.jichu;
+
 import java.util.Arrays;
 
 public class Test3DiGui2 {

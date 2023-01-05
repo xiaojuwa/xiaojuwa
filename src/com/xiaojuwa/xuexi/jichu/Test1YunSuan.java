@@ -1,3 +1,5 @@
+package com.xiaojuwa.xuexi.jichu;
+
 public class Test1YunSuan {
     public static void main(String[] args) {
         int a = 3;
