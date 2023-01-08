@@ -16,9 +16,10 @@ public class Test07MaoPaoPaiXu {
             //这层循环 比较判断两个数，如果第一个数比第二个数大，则交换位置
             for (int j = 0; j < array.length-1-i; j++) {
                 if (array[j+1]>array[j]){
-                    temp=array[j];
-                    array[j]=array[j+1];
-                    array[j+1]=temp;
+                    temp=array[j];  //把第一个元素赋给temp
+                    array[j]=array[j+1];  //把第二个元素赋给第一个元素
+                    array[j+1]=temp;      //把tmmp的元素赋给第二个元素
+                    //完成：大的元素在前  小的元素在后
                 }
                 
             }
