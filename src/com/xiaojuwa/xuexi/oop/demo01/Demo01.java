@@ -3,6 +3,9 @@ package com.xiaojuwa.xuexi.oop.demo01;
 public class Demo01 {
     //main 方法
     public static void main(String[] args) {
+        Studen.say();
+        Studen studen = new Studen();
+        studen.jiao();
 
     }
 /*
