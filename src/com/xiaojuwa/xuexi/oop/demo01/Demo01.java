@@ -4,8 +4,8 @@ public class Demo01 {
     //main 方法
     public static void main(String[] args) {
         Studen.say();
-        Studen studen = new Studen();
-        studen.jiao();
+        Studen zhangsan = new Studen();
+        zhangsan.jiao();
 
     }
 /*

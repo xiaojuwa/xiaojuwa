@@ -6,5 +6,6 @@ public class Studen {
     }
     public void jiao(){
         System.out.printf("xueshenghoule");
+
     }
 }
